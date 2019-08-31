@@ -1,2 +1,3 @@
 # poc-mysql-partitioning
-Expirimental partitioning setup
+This repository is just an experiment. It is not intended to be production
+ready, or bug free.  
