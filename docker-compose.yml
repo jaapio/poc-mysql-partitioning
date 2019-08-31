@@ -1,0 +1,19 @@
+version: '3.5'
+
+services:
+  php:
+    build:
+      context: .
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: /app/bin/generate-data.php
+    links:
+      - db
+
+  db:
+    image: mariadb:10.1
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: test
+

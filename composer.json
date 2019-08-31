@@ -1,0 +1,15 @@
+{
+    "name": "jaapio/mysql-partitioning",
+    "description": "Table partitioning expiriment",
+    "type": "project",
+    "require": {
+        "fzaninotto/faker": "^1.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jaapio",
+            "email": "account@ijaap.nl"
+        }
+    ]
+}
